@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+padding: 0;
+box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+            background-image: url(/assets/img/banner.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+}
+
+.contenedor{
+    width: min-content(90%, 120rem);
+    margin: auto;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4{
+    text-decoration: dashed;
+    font-size: 4rem;
+    color: aliceblue;
+}
+
+img{
+    max-width: 100%;
+    
+}
+p{
+    color: aliceblue;
+}
+
+a{
+    color: pink;
+}
+
+button{
+    font-size: 25px;
+}
+
+
+.navegacion_enlace{
+    margin: 0px;
+padding: 0px;
+    position: absolute;
+    left: 80%;
+    top: 30px;
+    
+}
+
+.header_texto{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+aside{
+    text-align: center;
+}
+.widget-curso, h2{
+    background-image: url(/assets/img/blog3.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0px;    
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="barra">
+                <h1>Blog De Cafe</h1>
+                <nav class="navegacion">
+                    <a href="" class="navegacion_enlace">Nosotros, Cursos, Contactos</a>
+                </nav>
+            </div>
+
+        </div>
+        <div class="header_texto">
+            <h2>Blog Cafe con consejos y cursos</h2>
+            <p>Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+        <div class="contenedor" class="contenido-principal">
+            <section>
+                <h3>Nuestro Blog.</h3>
+                <article class="entrada">
+                    <img src="/assets/img/blog1.webp" alt="blog1">
+                    <h4>Tipos de granos de Cafe</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe perferendis ad asperiores, 
+                        dolorem voluptate explicabo vel accusantium doloribus! Rerum 
+                        necessitatibus officia fugit sint sequi provident adipisci tempora, culpa esse odio?</p>
+                        <button>Leer Entrada</button>
+                </article>
+                <article class="entrada">
+                    <img src="/assets/img/blog2.jpg" alt="blog1">
+                    <h4>Deliciosas Recetas de Cafe</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe perferendis ad asperiores, 
+                        dolorem voluptate explicabo vel accusantium doloribus! Rerum 
+                        necessitatibus officia fugit sint sequi provident adipisci tempora, culpa esse odio?</p>
+                        <button>Leer Entrada</button>
+            </section>
+            <aside>
+                <h3>Nuestros cursos y Talleres.</h3>
+                <ul class="cursos">
+                    <li class="widget-curso">
+                        <h2>Nustros Cursos y talleres, 
+                            tecnicas para extracion de cafe</h2>
+                            <p>
+                                Precio Del Cafe: gratis
+                            </p>
+                            <button>Mas Informacion Sobre Nuestros Cursos</button>
+                    </li>
+                    <li class="widget-curso">
+                        <h2>Recetas de Cafe para principiantes</h2>
+                        <p>
+                            Precio Del Cafe: gratis
+                        </p>
+                        <button>Mas Informacion Sobre Nuestros Cursos</button>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <footer>
+            <div class="contenedor">
+                <div class="barra"><h1>BlogDeCafe</h1></div>
+            </div>
+        </footer>
+    </header>
+</body>
+</html>
